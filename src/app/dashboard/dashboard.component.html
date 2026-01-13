@@ -1,0 +1,15 @@
+<div class="container">
+  <div style="display:flex; justify-content: space-between; align-items: center;">
+    <h2>Dashboard</h2>
+    <button (click)="logout()">Logout</button>
+  </div>
+
+  <div *ngIf="loading" class="loader"></div>
+  <div *ngIf="error" class="error-message">{{ error }}</div>
+
+  <ul *ngIf="!loading && !error">
+    <li *ngFor="let post of posts">{{ post.title }}</li>
+  </ul>
+
+  <button *ngIf="error" (click)="fetchData()" style="width:100%; margin-top:10px;">Retry</button>
+</div>
