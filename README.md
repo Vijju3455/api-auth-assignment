@@ -17,13 +17,6 @@ An Angular application demonstrating API authentication with login functionality
 
 # Installation
 
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd api-auth-assignment
-```
-#### or ###
-
 # How to Run the Application
 
 1. Unzip the project folder
@@ -68,21 +61,25 @@ The build artifacts will be stored in the `dist/` directory.
 
 ## Project Structure
 
-```
 src/
 ├── app/
 │   ├── app-routing.module.ts    # Application routing
 │   ├── app.module.ts            # Main application module
-│   ├── app.component.*          # Root component
+│   ├── app.component.ts         # Root component TypeScript
+│   ├── app.component.html       # Root component template
+│   ├── app.component.css        # Root component styles
 │   ├── auth.guard.ts            # Authentication guard
 │   ├── login/                   # Login component
-│   │   ├── login.component.*
+│   │   ├── login.component.ts
+│   │   ├── login.component.html
+│   │   └── login.component.css
 │   └── dashboard/               # Dashboard component
-│       ├── dashboard.component.*
+│       ├── dashboard.component.ts
+│       ├── dashboard.component.html
+│       └── dashboard.component.css
 ├── index.html                   # Main HTML file
 ├── main.ts                      # Application bootstrap
 └── styles.css                   # Global styles
-```
 
 ## Authentication Flow
 
