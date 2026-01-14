@@ -15,13 +15,21 @@ An Angular application demonstrating API authentication with login functionality
 - npm or yarn
 - Angular CLI
 
-## Installation
+# Installation
 
 1. Clone the repository:
 ```bash
 git clone <repository-url>
 cd api-auth-assignment
 ```
+#### or ###
+
+# How to Run the Application
+
+1. Unzip the project folder
+   ```bash
+   unzip api-auth-assignment.zip
+   cd api-auth-assignment
 
 2. Install dependencies:
 ```bash
@@ -33,7 +41,7 @@ npm install
 To start the development server:
 
 ```bash
-npm start
+ng serve
 ```
 
 The application will be available at `http://localhost:4200`.
