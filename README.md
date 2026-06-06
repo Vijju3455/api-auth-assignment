@@ -61,8 +61,6 @@ The build artifacts will be stored in the `dist/` directory.
 
 ## Project Structure
 
-## Project Structure
-
 ```text
 src/
 ├── app/
