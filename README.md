@@ -61,25 +61,29 @@ The build artifacts will be stored in the `dist/` directory.
 
 ## Project Structure
 
+## Project Structure
+
+```text
 src/
 ├── app/
-│   ├── app-routing.module.ts    # Application routing
-│   ├── app.module.ts            # Main application module
-│   ├── app.component.ts         # Root component TypeScript
-│   ├── app.component.html       # Root component template
-│   ├── app.component.css        # Root component styles
-│   ├── auth.guard.ts            # Authentication guard
-│   ├── login/                   # Login component
+│   ├── app-routing.module.ts
+│   ├── app.module.ts
+│   ├── app.component.ts
+│   ├── app.component.html
+│   ├── app.component.css
+│   ├── auth.guard.ts
+│   ├── login/
 │   │   ├── login.component.ts
 │   │   ├── login.component.html
 │   │   └── login.component.css
-│   └── dashboard/               # Dashboard component
+│   └── dashboard/
 │       ├── dashboard.component.ts
 │       ├── dashboard.component.html
 │       └── dashboard.component.css
-├── index.html                   # Main HTML file
-├── main.ts                      # Application bootstrap
-└── styles.css                   # Global styles
+├── index.html
+├── main.ts
+└── styles.css
+```
 
 ## Authentication Flow
 
